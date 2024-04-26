@@ -21,7 +21,7 @@ function sendemail_verify($name, $email, $verify_token)
     $mail->SMTPSecure = "tls";
 
     $mail->isHTML(true);
-    $mail->setFrom("thiwankadissanayake42@gmail.com", $name);
+    $mail->setFrom("userEmail", $name);
     $mail->addAddress($email);
     $mail->Subject = "Email Verification from Lanka Railway Explorer";
     $mail->Body = 
