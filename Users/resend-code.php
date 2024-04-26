@@ -15,12 +15,12 @@ function resend_email_verify($name, $email, $verify_token)
     $mail->isSMTP();
     $mail->Host = "smtp.gmail.com";
     $mail->SMTPAuth = true;
-    $mail->Username = "thiwankadissanayake42@gmail.com";
+    $mail->Username = "userEmail";
     $mail->Password = "aaig wkbq ecih pfbv";
     $mail->Port = 587;
     $mail->SMTPSecure = "tls";
     $mail->isHTML(true);
-    $mail->setFrom("thiwankadissanayake42@gmail.com", $name);
+    $mail->setFrom("userEmail", $name);
     $mail->addAddress($email);
     $mail->Subject = "Resend - Email Verification from Lanka Railway Explorer";
     $mail->Body = 
