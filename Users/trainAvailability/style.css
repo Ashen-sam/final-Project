@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.book label {
+  background-color: azure;
+  padding: 0.3rem;
+  border: 0.1rem solid;
+  border-radius: 0.8rem;
+  margin: 4px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.box .box-image img {
+  width: 100px;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.box button {
+  padding: 0.5rem;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 2rem;
+}
+
+.con {
+  max-width: 700px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 2rem;
+  background-color: #00ab93;
+  border-radius: 5px;
+}
+
+.con h1 {
+  text-align: center;
+  color: #04067c;
+  margin-bottom: 1rem;
+}
+
+.con h2 {
+  color: rgb(238, 255, 0);
+  margin: 0.5rem 0;
+}
+
+.con h3 {
+  color: red;
+  background-color: aliceblue;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.con button {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 4px;
+  background-color: rgb(56, 136, 255);
+  color: whitesmoke;
+  width: 100%;
+  border: none;
+}

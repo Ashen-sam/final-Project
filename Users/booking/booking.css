@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.container form {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  width: 100%;
+  border: 1px solid rgb(209, 209, 209);
+  max-width: 450px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.container form label {
+  font-weight: 600;
+}
+
+.container form input {
+  width: 100%;
+  padding: 0.4rem;
+  margin: 0.2rem 0;
+  border-radius: 5px;
+  border:1px solid rgb(199, 199, 199);
+}
+
+.container form p {
+  font-size: 16px;
+  font-weight: 450;
+  color: azure;
+}
+
+.container form .loc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container form select {
+  display: flex;
+  padding: 0.3rem;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.container form button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: #00ab93;
+  color: #ffffff;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.container form #people {
+  width: 100%;
+}
+
+.container form button[type="submit"] {
+  width: 100%;
+}
+
+.imgBox {
+  width: 200px;
+  border-radius: 5px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s;
+}
+
+.imgBox img {
+  width: 100%;
+  padding: 10px;
+}
+
+.imgBox.show-img {
+  max-height: 300px;
+  margin: 10px auto;
+  border: 2px solid #00ab93;
+}

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 1.4rem;
+  flex-direction: column;
+  border-radius: var(--radius);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: auto;
+  border: 1px solid rgb(209, 209, 209);
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 5px;
+}
+
+.container form h2 {
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+
+.container form label {
+  font-weight: var(--label-weight);
+  font-size: var(--label-sizes);
+}
+
+.container form input,
+.container form textarea {
+  width: 340px;
+  border-radius: 5px;
+  padding: 1rem;
+  border: 1px solid rgb(184, 184, 184);
+  margin-bottom: 0.7rem;
+}
+
+.submit-btn {
+  color: var(--btn-color);
+  font-size: var(--btn-size);
+  padding: var(--btn-padding);
+  background-color: var(--btn-bak-color);
+  outline: none;
+  border-radius: var(--radius);
+  border: none;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: var(--btn-hov);
+}
+label {
+  margin-bottom: 0.3rem;
+}
